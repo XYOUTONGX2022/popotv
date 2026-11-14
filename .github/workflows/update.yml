@@ -1,0 +1,64 @@
+name: Update television playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:17 China Standard Time, once a day.
+    - cron: '17 22 * * *'
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check dependencies
+        run: |
+          python3 --version
+          if ! command -v ffmpeg; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+      - name: Collect and test streams
+        run: |
+          python3 merge_iptv.py --output "$RUNNER_TEMP/combined.m3u"
+          python3 probe_iptv.py --workers 24 --input "$RUNNER_TEMP/combined.m3u" --output "$RUNNER_TEMP/readable.m3u" --report "$RUNNER_TEMP/report.json"
+          python3 verify_playback.py --ffmpeg "$(command -v ffmpeg)" --report "$RUNNER_TEMP/report.json" --output "$RUNNER_TEMP/candidate.m3u"
+          python3 prepare_public.py "$RUNNER_TEMP/candidate.m3u" "$RUNNER_TEMP/playable.m3u" --previous playable.m3u
+      - uses: actions/upload-artifact@v4
+        with:
+          name: checked-playlist
+          path: ${{ runner.temp }}/playable.m3u
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: checked-playlist
+          path: ${{ runner.temp }}/playlist
+      - name: Validate and publish
+        run: |
+          python3 prepare_public.py "$RUNNER_TEMP/playlist/playable.m3u" "$RUNNER_TEMP/final.m3u" --previous playable.m3u
+          cp "$RUNNER_TEMP/final.m3u" playable.m3u
+          git add playable.m3u
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update checked playlist'
+          git push

@@ -2,6 +2,9 @@ name: Update television playlist
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update.yml'
   schedule:
     # 06:17 China Standard Time, once a day.
     - cron: '17 22 * * *'

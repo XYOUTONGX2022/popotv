@@ -14,6 +14,7 @@ DEFAULT_SOURCES = [
     "https://peterhchina.github.io/iptv/CNTV-V6.m3u",
     "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
     "https://iptv-org.github.io/iptv/countries/cn.m3u",
+    "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8",
 ]
 MAX_BYTES = 8 * 1024 * 1024
 

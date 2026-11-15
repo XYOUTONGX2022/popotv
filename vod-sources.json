@@ -1,0 +1,22 @@
+{
+  "name": "影视与综艺点播源",
+  "version": 2,
+  "sources": [
+    {
+      "name": "极速",
+      "url": "https://jszyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "火狐",
+      "url": "https://hhzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "爱坤",
+      "url": "https://ikunzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "魔都",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod/"
+    }
+  ]
+}

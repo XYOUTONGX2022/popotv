@@ -1,0 +1,67 @@
+name: Update movie and variety playlist
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update-vod.yml'
+      - 'build_vod.py'
+      - 'check_vod.py'
+  schedule:
+    # 09:37 China Standard Time. Kept apart from the live playlist update.
+    - cron: '37 1 * * *'
+
+concurrency:
+  group: update-vod-playlist
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check dependencies
+        run: |
+          python3 --version
+          if ! command -v ffmpeg; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+      - name: Collect and test films and variety shows
+        run: |
+          python3 build_vod.py --ffmpeg "$(command -v ffmpeg)" --output "$RUNNER_TEMP/vod-candidate.m3u"
+          python3 check_vod.py "$RUNNER_TEMP/vod-candidate.m3u" "$RUNNER_TEMP/vod.m3u" --previous vod.m3u
+      - uses: actions/upload-artifact@v4
+        with:
+          name: checked-vod-playlist
+          path: ${{ runner.temp }}/vod.m3u
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: checked-vod-playlist
+          path: ${{ runner.temp }}/playlist
+      - name: Validate and publish
+        run: |
+          python3 check_vod.py "$RUNNER_TEMP/playlist/vod.m3u" "$RUNNER_TEMP/final.m3u" --previous vod.m3u
+          cp "$RUNNER_TEMP/final.m3u" vod.m3u
+          git add vod.m3u
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update movie and variety playlist'
+          git push

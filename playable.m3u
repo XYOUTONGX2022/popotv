@@ -1,42 +1,38 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="" group-title="央视",CCTV-1
 http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="" group-title="央视",CCTV-1
+https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV-1
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV-1
+http://222.223.41.27:8888/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV-1
 http://113.90.154.189:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV-1
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
-#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视",CCTV-1
-http://118.193.115.2:9901/tsfile/live/0001_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="" group-title="央视",CCTV-2
 http://74.91.26.218:82/live/cctv2hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV-2
+http://222.223.41.27:8888/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV-2
 http://221.7.175.154:8445/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV-2
 http://118.193.115.2:9901/tsfile/live/0002_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV-2
 http://49.70.189.149:60001/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视",CCTV-2
-http://45.192.97.170:8880/play/442.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="" group-title="央视",CCTV-3
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV-3
 http://59.39.89.130:60901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV-3
-http://120.40.39.246:352/newlive/live/hls/3/live.m3u8
-#EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV-3
 http://118.193.115.2:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV-3
 http://222.223.41.27:8888/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视",CCTV-3
+http://119.39.9.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-4 亚洲" tvg-logo="" group-title="央视",CCTV-4 亚洲
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视",CCTV-4K
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794769200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-8c6967883464731d52dae69ea1e7942a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
-#EXTINF:-1 tvg-name="CCTV-6" tvg-logo="" group-title="央视",CCTV-6
-http://69.30.245.50/live/cctv6.m3u8
-#EXTINF:-1 tvg-name="CCTV-6" tvg-logo="" group-title="央视",CCTV-6
-http://198.204.240.250:82/live/cctv6.m3u8
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794848400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-a5eaf207fd17190677bea863a5f76f17&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV-6
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视",CCTV-6
@@ -47,8 +43,6 @@ http://74.91.26.218:82/live/cctv7hd.m3u8
 http://59.39.89.130:60901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-8" tvg-logo="" group-title="央视",CCTV-8
 http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV-8
-http://198.204.228.26/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV-8
 http://104.152.209.49:8181/720p/cctv8.m3u8
 #EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视",CCTV-8
@@ -62,9 +56,9 @@ http://222.223.41.27:8888/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV-9
 http://221.7.175.154:8445/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV-9
-http://113.90.154.189:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+http://1.24.39.180:9003/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视",CCTV-9
-http://49.70.189.149:60001/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+http://113.90.154.189:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-10" tvg-logo="" group-title="央视",CCTV-10
 http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-10" tvg-logo="" group-title="央视",CCTV-10
@@ -78,11 +72,11 @@ http://120.40.39.246:352/newlive/live/hls/11/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-11" tvg-logo="" group-title="央视",CCTV-11
 http://74.91.26.218:82/live/cctv11hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV-11
-http://222.223.41.27:8888/hls/11/index.m3u8
-#EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV-11
 http://219.147.245.238:25480/newlive/live/hls/12/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV-11
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv11hd
+#EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="央视",CCTV-11
+http://104.152.209.49:8181/720p/cctv11.m3u8
 #EXTINF:-1 tvg-name="CCTV-12" tvg-logo="" group-title="央视",CCTV-12
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-12" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV12.png" group-title="央视",CCTV-12
@@ -96,27 +90,25 @@ https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV-13
 http://49.70.189.149:60001/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视",CCTV-13
-https://epg.pw/stream/5d3d047c64e44d0a24dc33e5700e579457201d2960036b43819bd930a0bb76a7.m3u8
+http://219.147.245.238:25480/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="" group-title="央视",CCTV-14
 http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV-14
 https://event.pull.hebtv.com/jishi/cp2.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV-14
-http://222.223.41.27:8888/hls/14/index.m3u8
-#EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV-14
 http://49.70.189.149:60001/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV-14
 http://45.192.97.170:8880/play/403.m3u8
+#EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视",CCTV-14
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="" group-title="央视",CCTV-15
 http://74.91.26.218:82/live/cctv15hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV-15
-http://222.223.41.27:8888/hls/15/index.m3u8
+http://219.147.245.238:25480/newlive/live/hls/16/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV-15
 http://124.228.160.40:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV-15
 http://59.39.89.130:60901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视",CCTV-15
-http://153.0.171.163:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央视",CCTV-16
 http://104.152.209.49:8181/720p/cctv16.m3u8
 #EXTINF:-1 tvg-name="CCTV-17" tvg-logo="" group-title="央视",CCTV-17
@@ -179,8 +171,6 @@ http://58.56.162.102:4466/newlive/live/hls/43/live.m3u8
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
 http://124.90.45.52:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="卫视",山东卫视
-http://153.0.171.163:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
@@ -190,7 +180,7 @@ http://59.39.89.130:60901/tsfile/live/0125_20.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
 http://58.56.162.102:4466/newlive/live/hls/32/live.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="卫视",山西卫视
-http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+http://101.66.198.77:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="卫视",广东卫视
 http://124.228.160.40:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="卫视",广西卫视
@@ -207,6 +197,8 @@ http://120.198.86.186:9901/tsfile/live/1090_1.m3u8?key=txiptv&playlive=1&authid=
 http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
 http://113.25.252.226:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/新疆卫视.png" group-title="卫视",新疆卫视
+http://58.56.162.102:4466/newlive/live/hls/44/live.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
 http://101.66.199.96:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="卫视",江苏卫视
@@ -225,8 +217,6 @@ http://124.228.160.40:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=
 http://119.39.9.8:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
 http://120.237.39.10:9901/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="卫视",江西卫视
-http://153.0.171.163:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
 http://221.7.175.154:8445/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="卫视",河北卫视
@@ -257,10 +247,6 @@ http://119.39.9.8:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0
 http://120.40.39.246:352/newlive/live/hls/36/live.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
 http://124.90.45.52:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
-http://153.0.171.163:85/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="卫视",湖北卫视
-http://153.0.171.163:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/甘肃卫视.png" group-title="卫视",甘肃卫视
 http://119.39.9.8:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/西藏卫视.png" group-title="卫视",西藏卫视
@@ -281,8 +267,6 @@ http://59.39.89.130:60901/tsfile/live/0125_13.m3u8?key=txiptv&playlive=1&authid=
 http://221.7.175.154:8445/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
 http://119.39.9.8:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://153.0.171.163:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="卫视",重庆卫视
 http://119.39.9.8:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
@@ -295,8 +279,6 @@ http://218.13.170.98:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 http://59.39.89.130:60901/tsfile/live/0125_23.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="卫视",陕西卫视
 http://58.56.162.102:4466/newlive/live/hls/29/live.m3u8
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="卫视",青海卫视
-http://120.238.84.45:9901/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
 http://59.39.89.130:60901/tsfile/live/0125_14.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
@@ -305,8 +287,6 @@ http://118.122.144.115:8888/newlive/live/hls/38/live.m3u8
 http://107.150.60.122/live/hljwshd.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
 http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="卫视",黑龙江卫视
-http://153.0.171.163:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV-4
 http://222.223.41.27:8888/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视",CCTV-4
@@ -324,15 +304,13 @@ http://221.7.175.154:8445/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV-5
 http://104.152.209.49:8181/720p/cctv5.m3u8
 #EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV-5
-http://221.226.51.220:50081/newlive/live/hls/6/live.m3u8
-#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV-5
 http://124.90.45.52:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视",CCTV-5
+http://113.90.154.189:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
 http://59.39.89.130:60901/tsfile/live/0125_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
 http://221.7.175.154:8445/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="卫视",湖南卫视
-http://153.0.171.163:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视
 http://124.228.160.40:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="卫视",安徽卫视

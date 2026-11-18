@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="生死制暴" tvg-logo="https://ynztctv.com/upload/vod/20261117-1/5c0a878e62cdc1a8012a3948dd2966a1.webp" group-title="电影" type="movie",生死制暴
+https://bfikuncdn.com/20261117/zT8AIv2e/index.m3u8
 #EXTINF:-1 tvg-name="拉纳巴利" tvg-logo="https://ynztctv.com/upload/vod/20261114-1/3df43ac0df4e15612e3c081065ea4bf5.webp" group-title="电影" type="movie",拉纳巴利
 https://bfikuncdn.com/20261113/Jcz8FDOY/index.m3u8
 #EXTINF:-1 tvg-name="绝境反击" tvg-logo="https://ynztctv.com/upload/vod/20261113-1/0855e43e5092015e45e1918fda25bcd3.webp" group-title="电影" type="movie",绝境反击
@@ -41,43 +43,41 @@ https://play.modujx17.com/20261024/rVdWtnEa/index.m3u8
 https://play.modujx17.com/20261023/oMgGAp1Z/index.m3u8
 #EXTINF:-1 tvg-name="毒战囚笼" tvg-logo="https://www.mdzypic.com/upload/vod/20261022-1/7e2db49f8dd51de8567ee58e9f6c7844.jpg" group-title="电影" type="movie",毒战囚笼
 https://play.modujx17.com/20261022/vGip4j9e/index.m3u8
-#EXTINF:-1 tvg-name="老江湖" tvg-logo="https://www.mdzypic.com/upload/vod/20261021-1/ad9ab215606a45187c683615ae661250.webp" group-title="电影" type="movie",老江湖
-https://play.modujx17.com/20261021/dtPHhPqx/index.m3u8
+#EXTINF:-1 tvg-name="笑动剧场2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260514-1/aca7b5f7b6a59258b5fa09bb9ff5b2c0.jpg" group-title="综艺" type="series",笑动剧场2026 · 第20261117期
+https://play.modujx17.com/20261118/mVBiKYrT/index.m3u8
+#EXTINF:-1 tvg-name="万物有生 · 第20261118期" tvg-logo="https://www.mdzypic.com/upload/vod/20261028-1/fa3261bcaeb1521ce3b6c081f004b845.jpg" group-title="综艺" type="series",万物有生 · 第20261118期
+https://play.modujx17.com/20261118/1qmcZb6f/index.m3u8
+#EXTINF:-1 tvg-name="爱的修学旅行第二季 · 第20261118期下" tvg-logo="https://www.mdzypic.com/upload/vod/20261021-1/4489fdc5c1448e36c45df807090df069.jpg" group-title="综艺" type="series",爱的修学旅行第二季 · 第20261118期下
+https://play.modujx17.com/20261118/vBqBMI7W/index.m3u8
+#EXTINF:-1 tvg-name="日落时分说爱你2 · 第20261118期加更" tvg-logo="https://www.mdzypic.com/upload/vod/20261116-1/0f91ad52656b9fec0ed597dd4c5f099c.png" group-title="综艺" type="series",日落时分说爱你2 · 第20261118期加更
+https://play.modujx17.com/20261118/37K3Mg0U/index.m3u8
+#EXTINF:-1 tvg-name="欢乐集结号2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260518-1/e85e5a693c6382ea3181d621e9c6fd6e.jpg" group-title="综艺" type="series",欢乐集结号2026 · 第20261117期
+https://play.modujx17.com/20261118/QkjZwB5N/index.m3u8
+#EXTINF:-1 tvg-name="人气美食2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/05a0dbb62b187aefc480ef56d658a454.jpg" group-title="综艺" type="series",人气美食2026 · 第20261117期
+https://play.modujx17.com/20261118/Z6KbyUpK/index.m3u8
+#EXTINF:-1 tvg-name="x诊所2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260512-1/cf60ee7800a349f720422793aa1ea7d9.jpg" group-title="综艺" type="series",x诊所2026 · 第20261117期
+https://play.modujx17.com/20261118/GQSyBwWA/index.m3u8
+#EXTINF:-1 tvg-name="健康大问诊2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/7c526e069b5cc9e5dbe69ea31c8419a6.jpg" group-title="综艺" type="series",健康大问诊2026 · 第20261117期
+https://play.modujx17.com/20261118/f3CwZ1c9/index.m3u8
+#EXTINF:-1 tvg-name="金牌调解2026 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/70d1efcd55b19b2e6adc81642359c87f.jpg" group-title="综艺" type="series",金牌调解2026 · 第20261117期
+https://play.modujx17.com/20261118/r3b1KH1r/index.m3u8
+#EXTINF:-1 tvg-name="有你的恋歌第三季 · 第20261118期舞台纯享" tvg-logo="https://ynztctv.com/upload/vod/20261012-1/42fd7180dd8c839dafb3347a6aa2215d.jpg" group-title="综艺" type="series",有你的恋歌第三季 · 第20261118期舞台纯享
+https://bfikuncdn.com/20261118/gEfC8D8d/index.m3u8
+#EXTINF:-1 tvg-name="趁热打铁 · 第2026118期" tvg-logo="https://www.mdzypic.com/upload/vod/20261111-1/10649db249d7a6f34052dbeb83b5169c.webp" group-title="综艺" type="series",趁热打铁 · 第2026118期
+https://play.modujx17.com/20261118/H9JgSfwY/index.m3u8
+#EXTINF:-1 tvg-name="不想睡的星期五 · 第20261118期超前营“夜”" tvg-logo="https://ynztctv.com/upload/vod/20260813-1/fa5dc31d0c9382b68b3b3e3be220fccb.webp" group-title="综艺" type="series",不想睡的星期五 · 第20261118期超前营“夜”
+https://bfikuncdn.com/20261118/f7NFbywe/index.m3u8
+#EXTINF:-1 tvg-name="爸爸当家的聚会·2026 · 第20261118期萌娃纯享" tvg-logo="https://ynztctv.com/upload/vod/20260504-1/9e4d67a81b41e9c687dc50a75ac31743.webp" group-title="综艺" type="series",爸爸当家的聚会·2026 · 第20261118期萌娃纯享
+https://bfikuncdn.com/20261118/HwizuMmJ/index.m3u8
+#EXTINF:-1 tvg-name="听，谁在唱歌第二季 · 第20261118期第6期会员版" tvg-logo="https://www.mdzypic.com/upload/vod/20261012-1/ca28615aa785f86345a24dfc6418a25e.jpg" group-title="综艺" type="series",听，谁在唱歌第二季 · 第20261118期第6期会员版
+https://play.modujx17.com/20261118/MHZtXwD3/index.m3u8
+#EXTINF:-1 tvg-name="音乐缘计划3 · 第20261118期第2期全纪实" tvg-logo="https://ynztctv.com/upload/vod/20261030-1/4e2c959770cc31af3ea0697e4af3493b.webp" group-title="综艺" type="series",音乐缘计划3 · 第20261118期第2期全纪实
+https://bfikuncdn.com/20261118/vx4DHPzW/index.m3u8
+#EXTINF:-1 tvg-name="难得读叔 · 第20261118期" tvg-logo="https://ynztctv.com/upload/vod/20261111-1/d1d57abc075349aa7ac9c117312a10cb.jpg" group-title="综艺" type="series",难得读叔 · 第20261118期
+https://bfikuncdn.com/20261118/YeUErRfn/index.m3u8
 #EXTINF:-1 tvg-name="综艺玩很大2022 · 第20261115期" tvg-logo="https://ynztctv.com/upload/vod/20221008-9/5873d67e5d93fabf2b61cb4cdfc32330.jpg" group-title="综艺" type="series",综艺玩很大2022 · 第20261115期
 https://bfikuncdn.com/20261117/6rHEDOUr/index.m3u8
-#EXTINF:-1 tvg-name="现在就出发第四季 · 第20261117期还有加更" tvg-logo="https://ynztctv.com/upload/vod/20261001-1/ac8f4b7770b9aa1df6c6f6af0820df13.webp" group-title="综艺" type="series",现在就出发第四季 · 第20261117期还有加更
-https://bfikuncdn.com/20261117/8YZtEKvP/index.m3u8
-#EXTINF:-1 tvg-name="偏爱之恋第二季 · 第20261117期上" tvg-logo="https://ynztctv.com/upload/vod/20261020-1/398e635c9a33307d66bc8f16a6626a00.webp" group-title="综艺" type="series",偏爱之恋第二季 · 第20261117期上
-https://bfikuncdn.com/20261117/f0iwp3hl/index.m3u8
 #EXTINF:-1 tvg-name="夏日的星星 · 第20261117期" tvg-logo="https://ynztctv.com/upload/vod/20261110-1/8867f2a1cf2550588aa0edf5f1ff2a84.webp" group-title="综艺" type="series",夏日的星星 · 第20261117期
 https://bfikuncdn.com/20261117/SexKGBjO/index.m3u8
 #EXTINF:-1 tvg-name="对味 · 第20261117期" tvg-logo="https://www.mdzypic.com/upload/vod/20260924-1/b56562c3e2ecf6a431a21c3d7fc11d90.webp" group-title="综艺" type="series",对味 · 第20261117期
 https://play.modujx17.com/20261117/5Hs1ijtk/index.m3u8
-#EXTINF:-1 tvg-name="日落时分说爱你2 · 第20261117期下" tvg-logo="https://www.mdzypic.com/upload/vod/20261116-1/0f91ad52656b9fec0ed597dd4c5f099c.png" group-title="综艺" type="series",日落时分说爱你2 · 第20261117期下
-https://play.modujx17.com/20261117/nxPGEIks/index.m3u8
-#EXTINF:-1 tvg-name="不想睡的星期五 · 第20261117期超前营“夜”" tvg-logo="https://ynztctv.com/upload/vod/20260813-1/fa5dc31d0c9382b68b3b3e3be220fccb.webp" group-title="综艺" type="series",不想睡的星期五 · 第20261117期超前营“夜”
-https://bfikuncdn.com/20261117/LiSxD6En/index.m3u8
-#EXTINF:-1 tvg-name="笑动剧场2026 · 第20261116期" tvg-logo="https://ynztctv.com/upload/vod/20260524-1/c0d811a12898799f0685782a352090e5.jpg" group-title="综艺" type="series",笑动剧场2026 · 第20261116期
-https://bfikuncdn.com/20261117/l18EiUvR/index.m3u8
-#EXTINF:-1 tvg-name="欢乐集结号2026 · 第20261116期" tvg-logo="https://ynztctv.com/upload/vod/20260524-1/e50794d3d822632a44dde7205937ee3e.webp" group-title="综艺" type="series",欢乐集结号2026 · 第20261116期
-https://bfikuncdn.com/20261117/2PJ4JkyU/index.m3u8
-#EXTINF:-1 tvg-name="x诊所2026 · 第20261116期" tvg-logo="https://www.mdzypic.com/upload/vod/20260512-1/cf60ee7800a349f720422793aa1ea7d9.jpg" group-title="综艺" type="series",x诊所2026 · 第20261116期
-https://play.modujx17.com/20261117/JlfO9p6s/index.m3u8
-#EXTINF:-1 tvg-name="人气美食2026 · 第20261116期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/05a0dbb62b187aefc480ef56d658a454.jpg" group-title="综艺" type="series",人气美食2026 · 第20261116期
-https://play.modujx17.com/20261117/I0TpTdgw/index.m3u8
-#EXTINF:-1 tvg-name="金牌调解2026 · 第20261116期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/70d1efcd55b19b2e6adc81642359c87f.jpg" group-title="综艺" type="series",金牌调解2026 · 第20261116期
-https://play.modujx17.com/20261117/ffHdaLqB/index.m3u8
-#EXTINF:-1 tvg-name="健康大问诊2026 · 第20261116期" tvg-logo="https://www.mdzypic.com/upload/vod/20260513-1/7c526e069b5cc9e5dbe69ea31c8419a6.jpg" group-title="综艺" type="series",健康大问诊2026 · 第20261116期
-https://play.modujx17.com/20261117/cBfl3Lml/index.m3u8
-#EXTINF:-1 tvg-name="综艺大集合2022 · 第20261115期" tvg-logo="https://ynztctv.com/upload/vod/20221008-7/245c13b2ab3eccf83c539d6e820760c2.jpg" group-title="综艺" type="series",综艺大集合2022 · 第20261115期
-https://bfikuncdn.com/20261116/zlwb3cZ8/index.m3u8
-#EXTINF:-1 tvg-name="有你的恋歌第三季 · 第20261116期下" tvg-logo="https://ynztctv.com/upload/vod/20261012-1/42fd7180dd8c839dafb3347a6aa2215d.jpg" group-title="综艺" type="series",有你的恋歌第三季 · 第20261116期下
-https://bfikuncdn.com/20261116/nQK6TRCz/index.m3u8
-#EXTINF:-1 tvg-name="你好星期六 · 第20261116期会员精选" tvg-logo="https://ynztctv.com/upload/vod/20221112-28/35ce8a489fd97103ca82f768c002d23f.jpg" group-title="综艺" type="series",你好星期六 · 第20261116期会员精选
-https://bfikuncdn.com/20261116/oPSy9ZAT/index.m3u8
-#EXTINF:-1 tvg-name="我在中国当农人第三季 · 第20261116期" tvg-logo="https://ynztctv.com/upload/vod/20260928-1/9453d4c396b2d4ddbba9d757f8a60ba5.jpg" group-title="综艺" type="series",我在中国当农人第三季 · 第20261116期
-https://bfikuncdn.com/20261116/t4wUFCsr/index.m3u8
-#EXTINF:-1 tvg-name="我家那闺女2026 · 第20261116期加更版" tvg-logo="https://ynztctv.com/upload/vod/20260821-1/0991027de885f8b8e36bc29c2caae773.webp" group-title="综艺" type="series",我家那闺女2026 · 第20261116期加更版
-https://bfikuncdn.com/20261116/ks4lj1kt/index.m3u8
-#EXTINF:-1 tvg-name="听，谁在唱歌第二季 · 第20261115期" tvg-logo="https://ynztctv.com/upload/vod/20261012-1/d8a9591b5fe70e9ec3c9c48242dd9d09.png" group-title="综艺" type="series",听，谁在唱歌第二季 · 第20261115期
-https://bfikuncdn.com/20261116/r9VIHKnz/index.m3u8
